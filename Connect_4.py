@@ -44,7 +44,7 @@ def full_column(board,column):
     i = 5;
     valid = False;
     while (i > -1):
-        if (board[i][int(column)]=='x' or board[i][int(column)]=='o'):
+        if (board[i][int(column)]==1 or board[i][int(column)]==2):
             i-=1
         else:
             valid=True
